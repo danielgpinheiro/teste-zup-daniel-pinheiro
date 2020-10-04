@@ -1,0 +1,30 @@
+@import 'public/css/reset.scss';
+@import 'public/css/fonts.scss';
+@import 'public/css/global-variables.scss';
+@import '~react-redux-toastr/src/styles/index';
+
+*:not(div):not(footer):not(header):not(aside):not(section):not(body):not(html):not(img):not(svg) {
+  font-family: $opensansregular;
+}
+
+html,
+body,
+#root {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+
